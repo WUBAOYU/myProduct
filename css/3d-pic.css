@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+:root {
+  --z-distance: 8.519vw;
+  --from-left: 1;
+  --mobile-bkp: 650px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.slider {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.bgImg{	
+	    background-image:url("../images/index/2017-12-02_122620.png");
+		height:500px;
+		padding:50px;
+
+}
+.slider__content {
+  margin: auto;
+  width: 45vw;
+  height: 18vw;
+  max-height: 60vh;
+  will-change: transform;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  pointer-events: none;
+  -webkit-transform: translateZ(var(--z-distance));
+          transform: translateZ(var(--z-distance));
+}
+.slider__images {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  box-shadow: 11px 10px 8em 0px #000;
+}
+
+.slider__images-item img {
+  display: block;
+  position: relative;
+  left: -1em;
+  top: -1em;
+  width: calc(100% + 1em * 2);
+  height: calc(100% + 1em * 2);
+  -o-object-fit: cover;
+     object-fit: cover;
+  will-change: transform;
+}
+
+.slider__text {
+  position: relative;
+  height: 100%;
+}
+.slider__text-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0.5em;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.slider__text-item > * {
+  overflow: hidden;
+  position: absolute;
+}
+.slider__text-item h3, .slider__text-item p {
+  -webkit-transition: -webkit-transform 0.35s ease-out;
+  transition: -webkit-transform 0.35s ease-out;
+  transition: transform 0.35s ease-out;
+  transition: transform 0.35s ease-out, -webkit-transform 0.35s ease-out;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.slider__text-item h3 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.slider__text-item p {
+  font-family: 'Open Sans', sans-serif;
+  padding: 1em;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slider__text-item h3 {
+  margin: 0;
+  font-size: 3.5em;
+  padding: 0 .3em;
+  position: relative;
+  font-weight: 700;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+
+
+.slider__text-item--active h3, .slider__text-item--active p {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}

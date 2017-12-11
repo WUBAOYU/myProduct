@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/animate.css" rel="stylesheet"/>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #forward{
+            width: 1000px;
+            height: 500px;
+            margin:0px auto;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #forward img{
+            position: relative;
+            top: 193px;
+
+        }
+        #forward{
+            transition:all 1s linear;
+        }
+        #forward:hover{
+            transform:rotate3d(1,1000,100,360deg);
+        }
+        #forward:hover >img{
+            width:100px;
+            height: 100px;
+            transition:all 2s linear;
+        }
+        #forward:hover >p{
+            font-size: 30px;
+        }
+        #forward p {
+            font-size: 20px;
+            position: relative;
+            top: 218px;
+            font-weight: inherit;
+            opacity: 0.3;
+        }
+        .fa-search{
+            margin-top:13px;
+            margin-left: 240px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="loading">
+        <img src="img/loading.gif" alt="加载中..." >
+    </div>
+</div>
+
+<!--敬请期待页面-->
+<div id="forward">
+    <img src="images/lookforward/model_img3.png" alt="" class="animated bounce" style="opacity: 0.5"/>
+    <p class="animated slideInDown">服务暂未上线 敬请期待!!</p>
+</div>
+
+<div class="footer">
+    <div class="loading">
+        <img src="img/loading.gif" alt="加载中..." >
+    </div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>

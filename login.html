@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>树熊商城登陆页面</title>
+<!--   <link rel="icon" href="img/favicon.ico"> -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/login.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- 页面顶部-->
+<header id="top">
+  <div class="top">
+    <h2>
+      <a href="index.html">
+        <i>树熊优选</i>
+      </a>
+    </h2>
+    <span><i>欢迎注册</i></span>
+  </div>
+</header>
+<div id="container-login">
+  <div id="cover" class="rt">
+    <form id="form-login">
+      <div class="txt">
+        <p>登录树熊商城
+            <span>
+                <a href="register.html">新用户注册</a>
+            </span>
+        </p>
+        <div class="text">
+          <input type="text" placeholder="请输入您的用户名" name="uname" id="uname" required autofocus>
+          <span><img src="img/login/yhm.png"></span>
+        </div>
+        <div class="text">
+          <input type="password" id="password" placeholder="请输入您的密码" name="upwd" id="upwd" required minlength="6" maxlength="15">
+          <span><img src="img/login/mm.png"></span>
+        </div>
+        <div class="chose">
+          <input type="checkbox" class="checkbox" id="ck_rmbUser" value="0"><a href="">自动登录</a>
+          <span><a href="">忘记密码？</a></span>
+        </div>
+        <input class="button_login" type="button" value="登录" id="bt-login">
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="msg-title">
+  <h1 ><b><span style="color:dodgerblue">专注</span>于更好的购物体验</b></h1>
+  <p>我们注重树立品牌形象,提升消费者的购物体验,以真诚的服务,让每一位顾客悦在其中。我们,能做的更多...</p>
+</div>
+<!--错误提示-->
+<div id="showResult"></div>
+<div class="footer">
+  <img src="img/loading.gif" alt="" class="loading">
+</div>
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+ <script src="js/base.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

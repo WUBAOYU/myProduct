@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<title>树熊商城</title>
+        <!-- 样式表 -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+		<!--link href="css/blog-single.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet"-->
+    </head>   
+	<body>
+		
+		<!-- 头部 -->
+		<header class="header">
+
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">
+							<ul class="list-inline">
+								<li>
+									<div class="dropdown">
+										<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img  src="" alt="" /> 中文 <i class="fa fa-angle-down"></i></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">英文</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="dropdown">
+										<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">北京  &nbsp;地区<i class="fa fa-angle-down"></i></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">北京</a></li>
+											<li><a href="#">上海</a></li>
+											<li><a href="#">广州</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<ul class="list-inline">
+								<li><a href="#" ><i class="fa fa-mobile"></i> 联系我们</a></li>
+								<li><a href="#" > +861521012**42</a></li>
+								<li><a href="#" ><i class="fa fa-envelope-o"></i> 1229865149@qq.com</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-5">
+							<ul class="list-inline pull-right">
+								<li><a href="login.html" ><i class="fa fa-file-o"></i> 登录</a></li>
+								<li><a class="register" href="register.html" >注册</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- logo -->
+			<div class="logo-add">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="logo"><i class="fa fa-diamond"></i>树熊优选</div>
+						</div>
+						<div class="col-sm-8">
+							<h3 class="add bb-year-end-ribbon hidden-xs"><img src="images/red-tablet.png" width="40px;" alt="" />
+								<span>Hi! 新品都在这里</span><a href="product.html"> <button class="btn btn-default">查看  </button></a></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 头部按钮 -->
+			<div class="header-bottom">
+				<div class="row">
+					<div class="col-sm-12">
+						<nav class="navbar navbar-default">
+							<div class="container">
+
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-bottom" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<!-- 首页导航栏-->
+								<div class="collapse navbar-collapse" id="header-bottom">
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">首页</a></span>
+											<ul class="dropdown-menu">
+												<li><a href="index.html">首页</a></li>
+												<li><a href="lookforward.html">首页(2)</a></li>
+											</ul>
+										</li>
+										<li><a href="product-detail.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商品</a><span class="label label-danger text-center hidden-xs">New <i class="fa fa-caret-right"></i></span>
+											<ul class="dropdown-menu">
+												<li><a href="product.html">商品列表</a></li>
+												<!--<li><a href="product-detail.html">商品详情()</a></li>-->
+												<li><a href="product-detail-2.html">商品详情</a></li>
+												<li><a href="product_details.html">商品详情(2)</a></li>
+											</ul>
+										</li>
+										<li><a href="faq.html">常见问题</a></li>
+										<li><a href="lookforward.html">博客</a></li>
+										<li><a href="legal-notices.html">法律条款</a></li>
+										<li><a href="about-us.html">关于我们</a> <span class="label label-info text-center hidden-xs">New <i class="fa fa-caret-right"></i></span></li>
+										<li><a href="contact-us.html">联系我们</a></li>
+									</ul>
+									<form class="navbar-form navbar-right" role="search">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="搜索...">
+											<span class="nav-search"><a href="product.html"><i class="fa fa-search"></i></a></span>
+										</div>
+									</form>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- 轮播 -->
+		<section class="home">
+			<div class="intro">
+				<div id="home" class="carousel slide" data-interval="2000" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#home" data-slide-to="0" class="active"></li>
+						<li data-target="#home" data-slide-to="1"></li>
+						<li data-target="#home" data-slide-to="2"></li>
+						<li data-target="#home" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-7">
+										<div class="intro-content">
+											<h1>最新推荐</h1>
+											<h2>大 <span class="highlight">减价</span></h2>
+											<p>完美的系统体验!畅快淋漓的游戏操作,触动你的感官,游戏的终极体验</p>
+											<a class="btn btn-default" href="product-detail-2.html">Buy! go</a>
+										</div>
+									</div>
+									<div class="col-sm-5">
+										<img class="img-responsive" src="images/index/index_hot_study_img1.png" height="742" alt="" />
+									</div>	
+								</div>	
+							</div>	
+						</div>
+						<div class="item">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-7">
+										<div class="intro-content">
+											<h1>最后1小时</h1>
+											<h2>大 <span class="highlight">减价</span></h2>
+											<p>完美的系统体验!畅快淋漓的游戏操作,触动你的感官,游戏的终极体验</p>
+											<a class="btn btn-default" href="product-detail-2.html">Buy! go</a>
+										</div>
+									</div>
+									<div class="col-sm-5">
+										<img class="img-responsive" src="images/product-slide2.png" alt="" />
+									</div>	
+								</div>	
+							</div>	
+						</div>
+						<div class="item">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-7">
+										<div class="intro-content">
+											<h1>最后1小时</h1>
+											<h2>大 <span class="highlight">减价</span></h2>
+											<p>完美的系统体验!畅快淋漓的游戏操作,触动你的感官,游戏的终极体验</p>
+											<a class="btn btn-default" href="product-detail-2.html">Buy! go</a>
+										</div>
+									</div>
+									<div class="col-sm-5">
+										<img class="img-responsive" src="images/index/study_computer_img1.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-7">
+										<div class="intro-content">
+											<h1>最新Windows 10</h1>
+											<h2>大 <span class="highlight">不同</span></h2>
+											<p>完美的系统体验!畅快淋漓的游戏操作,触动你的感官,游戏的终极体验</p>
+											<a class="btn btn-default" href="product-detail-2.html">Buy! go</a>
+										</div>
+									</div>
+									<div class="col-sm-5">
+										<img src="images/product-slide3.png" alt=""/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#home" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+					<a class="right carousel-control" href="#home" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- 服务列表 -->
+		<section class="service">
+			<div class="container">
+				<div class="row ">
+					<div class="col-sm-3 text-center">
+						<div class="service-detail">
+							<span class=" fa diamond"> <i class="fa fa-android"></i></span>
+							<h3>品质保障</h3>
+							<p>正品保障,产家直购,最完美的品质送给我们最珍重的您! </p>
+						</div>
+					</div>
+					<div class="col-sm-3 text-center">
+						<div class="service-detail">
+							<span class=" fa diamond"> <i class="fa fa-apple"></i></span>
+							<h3>7天退换</h3>
+							<p>7天无理由退换,保证您的权益,您安心的体验,是我们发展的动力!</p>
+						</div>
+					</div>
+					<div class="col-sm-3 text-center">
+						<div class="service-detail">
+							<span class=" fa diamond"> <i class="fa fa-html5"></i></span>
+							<h3>定制包装</h3>
+							<p>私人定制的礼品包装,带来不一样的惊喜!</p>
+						</div>
+					</div>
+					<div class="col-sm-3 text-center">
+						<div class="service-detail">
+							<span class=" fa diamond"> <i class="fa fa-css3"></i></span>
+							<!--span><i class="fa fa-folder-o s-icon"></i></span-->
+							<h3>无忧配送</h3>
+							<p>安全周到的配送服务,方便快捷的配送体验.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 推荐产品 -->
+		<section class="featured-product all-pro">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="product-title">
+							<h1><span class="t-color-1">最新</span> 推荐
+								<small class="btn-group hidden-xs">
+									<a class=" btn btn-success btn-lg see-more" href="product.html">更多商品 <i class="fa fa-angle-double-right"></i></a>
+								</small>
+							</h1>
+							<div class="heading-border b-color-1"></div>
+						</div>
+					</div>
+				</div> <!-- section title -->
+				<div id="type-1" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#type-1" data-slide-to="0" class="active"><i class="fa fa-angle-left"></i></li>
+						<li data-target="#type-1" data-slide-to="1"><i class="fa fa-angle-right"></i></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<!--span class="e-label"><div>Sale</div></span-->
+										<span class="service-link text-center">
+											<a href="product-detail-2.html"><img class="img-responsive" src="images/product_detail/product_detail_1.png" alt=""></a>
+											<div class="list-inline">
+												<a href=""><i class="fa fa-eye"></i></a>
+												<a href=""><i class="fa fa-link"></i></a>
+											</div>
+										</span>
+										<div class="caption">
+											<div class="category"> category
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>戴尔灵越15PR-5745B</h3>
+											<strong>¥3999</strong>
+											<div><a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> Add to Wishlist</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<span class="service-link text-center">
+											<a href="product-detail-2.html"><img class="img-responsive" src="images/product_detail/product_detail_2.png" alt=""></a>
+											<div class="list-inline">
+												<a href=""><i class="fa fa-eye"></i></a>
+												<a href=""><i class="fa fa-link"></i></a>
+											</div>
+										</span>
+										<div class="caption">
+											<div class="category"> category
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>联想小新700</h3>
+											<strong>¥4999</strong>
+											<div><a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> Add to Wishlist</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<span class="service-link text-center">
+											<a href="product-detail-2.html"><img class="img-responsive" src="images/product_detail/product_detail_3.png" alt=""></a>
+											<div class="list-inline">
+												<a href=""><i class="fa fa-eye"></i></a>
+												<a href=""><i class="fa fa-link"></i></a>
+											</div>
+										</span>
+										<div class="caption">
+											<div class="category"> category
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>华硕RX310UQ</h3>
+											<strong>¥4599</strong>
+											<div><a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> Add to Wishlist</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<span class="service-link text-center">
+											<a href="product-detail-2.html"><img class="img-responsive" src="images/product_detail/product_detail_4.png" alt=""></a>
+											<div class="list-inline">
+												<a href=""><i class="fa fa-eye"></i></a>
+												<a href=""><i class="fa fa-link"></i></a>
+											</div>
+										</span>
+										<div class="caption">
+											<div class="category"> category
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>神舟战神Z7M-KP7GT</h3>
+											<strong>¥7999</strong>
+											<div>
+												<a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> Add to Wishlist</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<!--span class="e-label"><div>Sale</div></span-->
+										<span class="service-link text-center">
+											<img class="img-responsive" src="images/product_detail/product_detail_5.png" alt="">
+											<div class="list-inline">
+												<a href=""><i class="fa fa-eye"></i></a>
+												<a href=""><i class="fa fa-link"></i></a>
+											</div>
+										</span>
+										<div class="caption">
+											<div class="category"> category
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>ThinkPadE470 C</h3>
+											<strong>¥6599</strong>
+											<div><a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> Add to Wishlist</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<span class="service-link text-center">
+											<img class="img-responsive" src="images/product_detail/product_detail_2.png" alt="">
+											<div class="list-inline">
+												<a href=""><i class="fa fa-eye"></i></a>
+												<a href=""><i class="fa fa-link"></i></a>
+											</div>
+										</span>
+										<div class="caption">
+											<div class="category"> category
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>戴尔灵越15PR-5745B</h3>
+											<strong>¥3899</strong>
+											<div><a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> Add to Wishlist</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<span class="service-link text-center">
+											<img class="img-responsive" src="images/product_detail/product_detail_1.png" alt="">
+											<div class="list-inline">
+												<a href=""><i class="fa fa-eye"></i></a>
+												<a href=""><i class="fa fa-link"></i></a>
+											</div>
+										</span>
+										<div class="caption">
+											<div class="category"> category
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>华硕RX310UQ</h3>
+											<strong>¥4999</strong>
+											<div><a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> Add to Wishlist</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<span class="service-link text-center">
+											<img class="img-responsive" src="images/product_detail/product_detail_4.png" alt="">
+											<div class="list-inline">
+												<a href=""><i class="fa fa-eye"></i></a>
+												<a href=""><i class="fa fa-link"></i></a>
+											</div>
+										</span>
+										<div class="caption">
+											<div class="category"> category
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>小米Air</h3>
+											<strong>¥4899</strong>
+											<div>
+												<a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> Add to Wishlist</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- 特卖商品 -->
+		<section class="emarket-adds">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="single-add">
+							<h4><span>5折!</span>推荐</h4>
+							<a href="product.html" class="btn btn-default" role="button">查看详情</a>
+							<span class="img-add"><img src="images/red-tablet.png" alt="" /></span>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="single-add">
+							<h4><span>猜你</span>喜欢</h4>
+							<a href="product.html" class="btn btn-default" role="button">查看详情</a>
+							<span class="img-add"><img src="images/index/index_Sbanner_img2.png" alt="" /></span>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="single-add">
+							<h4>限时<span>特卖</span></h4>
+							<a href="product.html" class="btn btn-default" role="button">查看详情</a>
+							<span class="img-add"><img src="images/index/index_hot_study_img3.png" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- 热销推荐 -->
+		<section class="best-selling">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1><span class="t-color-2">热销</span>单品
+							<small class="btn-group hidden-xs">
+								<a class=" btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" 
+								   aria-expanded="false" >全部商品 <i class="fa fa-bars"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">表 1</a></li>
+									<li><a href="lookforward.html">表 2</a></li>
+								</ul>
+							</small>
+						</h1>
+						<div class="heading-border b-color-2"></div>
+					</div>
+				</div> <!-- 下拉列表 -->
+				<div id="best-selling" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#best-selling" data-slide-to="0" class="active"><i class="fa fa-angle-left"></i></li>
+						<li data-target="#best-selling" data-slide-to="1"><i class="fa fa-angle-right"></i></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="media">
+										<div class="media-left"><img src="images/index/study_computer_img3.png" alt=""></div>
+										<div class="media-body">
+											<div class="category"> 推荐指数
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+											</div>
+											<h3>戴尔小新! <i>最新I5推荐</i></h3>
+											<strong>¥5499.00</strong>
+											<div>
+												<a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> 添加收藏</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="media">
+										<div class="media-left"><img src="images/index/study_computer_img4.png" alt=""></div>
+										<div class="media-body">
+											<div class="category"> 推荐指数
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+											</div>
+											<h3>13寸!商务风格笔记本</h3>
+											<strong>¥4999</strong>
+											<div>
+												<a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> 添加收藏</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="media">
+										<div class="media-left"><img src="images/index/study_computer_img5.png" alt=""></div>
+										<div class="media-body">
+											<div class="category"> 推荐指数
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+											</div>
+											<h3>畅玩游戏,就选 <i>英特尔I7</i></h3>
+											<strong>¥5999</strong>
+											<div>
+												<a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i> 添加收藏</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="media">
+										<div class="media-left"><img src="images/index/red-tablet.png" alt=""></div>
+										<div class="media-body">
+											<div class="category"> 推荐指数
+												<div class="pull-right">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+											</div>
+											<h3>随时随地,尽在掌握</h3>
+											<strong>¥1899.00</strong>
+											<div>
+												<a href="#" class="btn btn-default" role="button">加入购物车</a><span class="pull-right"><i class="fa fa-heart-o"></i>添加收藏</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- 推荐栏 -->
+		<section class="special-price">
+			<div class="price-intro">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="pull-left">
+								<blockquote>
+								<h1> iPhone X 128GB</h1>
+								<p><i>最强旗舰来袭!全面屏大不同.</i> &nbsp;&nbsp;&nbsp;&nbsp;货票同行 , 全国联保</p>								</div>
+							</blockquote>
+							<div class="pull-right"><a class="btn btn-default btn-lg" href="lookforward.html">前往购买</a>
+							</div> 
+						</div>
+					</div> <!-- section title -->
+
+				</div>
+			</div>
+		</section>	
+			
+		<!-- 产品信息-->
+		<section class="product-info">
+			<div class="container">
+				<div class="row">	
+					<div class="col-sm-4">
+						<h1><span class="t-color-3">商城</span> 优选</h1>
+						<div class="heading-border b-color-3"></div>
+						<ul class="media-list">
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/57b12a31N8f4f75a3.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">Apple MacBook Air 13.3英寸笔记本 双核i5/8GB内存/128GB闪存</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥7999</strong>
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/57ad359dNd4a6f130.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">Apple MacBook Air 13.3英寸笔记本电脑 双核i5/8GB内存/256GB闪存</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥8999</strong>
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/57ad359dNd4a6f130.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">Apple MacBook Air 13.3英寸笔记本 定制款：双核i7/8G内存/128G闪存</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥9999.99</strong>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<h1><span class="t-color-4">季末</span> 特惠</h1>
+						<div class="heading-border b-color-4"></div>
+						<ul class="media-list">
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/57b12a31N8f4f75a3.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">小米(MI)Air 13.3英寸全金属超轻笔记本定制款：双核i7/8G内存/256G闪存</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥4999</strong>
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/57e3b072N661cd00d.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">小米(MI)Air 【13.3英寸】I5-6200U 8G 256G</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥5899.99</strong>
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/57e3b072N661cd00d.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">小米(MI)Air 【12.5金色】 M-7Y30 4G 128G</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥6899.99</strong>
+								</div>
+							</li>
+						</ul>
+					</div>	
+					<div class="col-sm-4">
+						<h1><span class="t-color-5">销量</span> 排行</h1>
+						<div class="heading-border b-color-5"></div>
+						<ul class="media-list">
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/57e3b072N661cd00d.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">联想(ThinkPad)E480c【E480C-2017新】i3 4G 500G独显</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥4899.99</strong>
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/57e3b072N661cd00d.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">联想(ThinkPad)E480c【E480C-2017新】i5 4G 256GSSD</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥4999.99</strong>
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left text-center"><img src="images/product/sm/584b5678Nbc9f1e70.jpg" alt="">
+									<a href="#"><i class="fa fa-eye"></i></a>
+								</div>
+								<div class="media-body">
+							    <h3 class="media-heading">华硕(ASUS)金属超极本13.3英寸I3-7100U/4G/128G固态</h3>
+									<div class="category">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<strong>¥5599.99</strong>
+								</div>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</section>	
+		
+		<!-- 新品上市 -->
+		<section class="recent-post">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1><span class="t-color-6">新品</span> 上市</h1>
+						<div class="heading-border b-color-6"></div>
+					</div>
+				</div> <!-- 滚动条 -->
+				<div id="recent-post" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#recent-post" data-slide-to="0" class="active"><i class="fa fa-angle-left"></i></li>
+						<li data-target="#recent-post" data-slide-to="1"><i class="fa fa-angle-right"></i></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="row">	
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<a href="product.html"><img class="img-responsive" src="images/product/md/57e3b072N661cd00d.jpg" alt=""></a>
+										<div class="text-center"><i class="fa fa-search"></i></div>
+										<div class="caption">
+											<h3 class="media-heading">ThinkPadE480C</h3>
+											<span><a href="#"> 2017.11.15</a><a href="#"><i class="fa fa-user"></i> 上架时间</a></span>
+											<p>2017年经典款新！精致小黑！22.3mm轻薄体验，180度开合灵活耐用，高效稳健办公最长可达5小时...</p>
+											<span class="comment"><i class="fa fa-comments"></i> 5条评论</span>
+										</div>
+									</div>
+							  </div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<img class="img-responsive" src="images/product/md/587f476aNcfbf7869.jpg" alt="">
+										<div class="text-center"><i class="fa fa-search"></i></div>
+										<div class="caption">
+											<h3 class="media-heading">AppleMacBookAir</h3>
+											<span><a href="#">2017.8.4</a><a href="#"><i class="fa fa-user"></i>上架时间</a></span>
+											<p>【铝镁合金 纯固态 轻至1.45kg 金属超极本 】双尺寸可选,高性能游戏独立显卡</p>
+											<span class="comment"><i class="fa fa-comments"></i>55条评论</span>
+										</div>
+									</div>
+							  </div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<a href="product.html"><img class="img-responsive" src="images/product/md/5913f8ffN49fa143c.jpg" alt=""></a>
+										<div class="text-center"><i class="fa fa-search"></i></div>
+										<div class="caption">
+											<h3 class="media-heading">华硕FH5900V</h3>
+											<span><a href="#"> 2017.6</a><a href="#"><i class="fa fa-user"></i>上架时间</a></span>
+											<p>【小新家族2017闪耀换新！晒单得E卡！12期免息！】小新700电竞版！经典之选,分辨率：全高清屏(1920×1080)</p>
+											<span class="comment"><i class="fa fa-comments"></i> 13条评论</span>
+										</div>
+									</div>
+							  </div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<img class="img-responsive" src="images/product/md/5913f8ffN49fa143c.jpg" alt="">
+										<div class="text-center"><i class="fa fa-search"></i></div>
+										<div class="caption">
+											<h3 class="media-heading">联想小新700</h3>
+											<span><a href="#">2017.9.15</a><a href="#"><i class="fa fa-user"></i>上架时间</a></span>
+											<p>【轻薄微边框、燃7000】七代i5双核CPU、128GSSD+500G双硬盘、IPS全高清显示屏，(1920×1080)入门级游戏独立显卡</p>
+											<span class="comment"><i class="fa fa-comments"></i>20条评论</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">	
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<a href="product.html"><img class="img-responsive" src="images/product/md/58a2c667Ne2b5cb73.jpg" alt=""></a>
+										<div class="text-center"><i class="fa fa-search"></i></div>
+										<div class="caption">
+											<h3 class="media-heading">戴尔灵越15PR-5745B</h3>
+											<span><a href="#">2017.8.20</a><a href="#"><i class="fa fa-user"></i>上架时间</a></span>
+											<p>【白条6期免息 游匣“10”力出击】七代四核CPU ,GTX1050 4G独显,FHD全高清屏,热血...</p>
+											<span class="comment"><i class="fa fa-comments"></i>25条评论</span>
+										</div>
+									</div>
+							  </div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<a href="product.html"><img class="img-responsive" src="images/product/md/57bbc38eN9def8042.jpg" alt=""></a>
+										<div class="text-center"><i class="fa fa-search"></i></div>
+										<div class="caption">
+											<h3 class="media-heading">戴尔燃7000</h3>
+											<span><a href="#">2017.10.1</a><a href="#"><i class="fa fa-user"></i>上架时间</a></span>
+											<p>游匣枪弹版精装上市 3D立体喷涂画面 机身更酷炫 七代四核CPU ,GTX1050 4G独显,FHD...</p>
+											<span class="comment"><i class="fa fa-comments"></i> 15条评论</span>
+										</div>
+									</div>
+							  </div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<a href="product.html"><img class="img-responsive" src="images/product/md/584b5678Nbc9f1e70.jpg" alt=""></a>
+										<div class="text-center"><i class="fa fa-search"></i></div>
+										<div class="caption">
+											<h3 class="media-heading">华硕RX310UQ</h3>
+											<span><a href="#">2017.10.15</a><a href="#"><i class="fa fa-user"></i> 上架时间</a></span>
+											<p>【强力散热保性能】 960M 4G独显 预装128SSD 双硬盘游戏更劲爽 我们比大多数产品 散热好...</p>
+											<span class="comment"><i class="fa fa-comments"></i> 5条评论</span>
+										</div>
+									</div>
+							  </div>
+								<div class="col-sm-3">
+									<div class="thumbnail">
+										<a href="product.html"><img class="img-responsive" src="images/product/md/58a2c668N7293a0d1.jpg" alt=""></a>
+										<div class="text-center"><i class="fa fa-search"></i></div>
+										<div class="caption">
+											<h3 class="media-heading">神舟战神Z7M-KP7GT</h3>
+											<span><a href="#">2017.11.11</a><a href="#"><i class="fa fa-user"></i> 上架时间</a></span>
+											<p>【选游戏本还得看散热】960M 4G独显 预装128SSD 双硬盘游戏更劲爽 ！</p>
+											<span class="comment"><i class="fa fa-comments"></i>9条评论</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+			
+		<!-- 合作伙伴 -->
+		<section class="sponsor">
+			<div class="container">			
+				<div id="sponsor" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="row">	
+								<div class="col-sm-12">
+									<ul class="list-inline text-center">
+										<li><img class="" src="images/1.gif" /></li>
+										<li><img class="" src="images/2.png" /></li>
+										<li><img class="" src="images/3.png" /></li>
+										<li><img class="" src="images/4.png" /></li>
+										<li><img class="" src="images/5.png" /></li>
+										<li><img class="" src="images/android.png" /></li>
+										<li><img class="" src="images/8.png" /></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">	
+								<div class="col-sm-12">
+									<ul class="list-inline text-center">
+										<li><img class="" src="images/1.gif" /></li>
+										<li><img class="" src="images/2.png" /></li>
+										<li><img class="" src="images/footer/ios.png" /></li>
+										<li><img class="" src="images/4.png" /></li>
+										<li><img class="" src="images/5.png" /></li>
+										<li><img class="" src="images/6.png" /></li>
+										<li><img class="" src="images/7.png" /></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Controls -->
+				<a class="control-left" href="#sponsor" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+				<a class="control-right" href="#sponsor" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+				</div>			
+			</div>
+		</section>
+		
+		<!-- 交互连接 -->
+		<section class="social-icons">
+			<div class="container">			
+				<div class="row">	
+					<div class="col-sm-12">
+						<ul class="list-inline text-center">
+							<li><a href="#" ><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" ><i class="fa fa-weixin"></i></a></li>
+							<li><a href="#" ><i class="fa fa-qq"></i></a></li>
+							<li><a href="#" ><i class="fa fa-share-alt"></i></a></li>
+							<li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#" ><i class="fa fa-delicious"></i></a></li>
+							<li><a href="#" ><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" ><i class="fa fa-dropbox"></i></a></li>
+							<li><a href="#" ><i class="fa fa-soundcloud"></i></a></li>
+							<li><a href="#" ><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="#" ><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" ><i class="fa fa-github-alt"></i></a></li>
+							<li><a href="#" ><i class="fa fa-skype"></i></a></li>
+							<li><a href="#" ><i class="fa fa-stumbleupon"></i></a></li>
+							<li><a href="#" ><i class="fa fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 页脚-->
+		<footer>
+			<div class="footer-top">
+				<div class="container">			
+					<div class="row">	
+						<div class="col-sm-3">
+							<h2>关于 树熊</h2>
+							<div class="heading-border b-color-1"></div>
+							<p>树熊科技自2015年初涉及电子商务领域以来,专注于该领域的长足发展,凭借在3C领域的深喉积淀,使得公司的业务不断发展壮大,同时不断加强和充实公司的技术实力,改进并完善售后服务,物流配送及市场推广...</p>
+							<div><a href="">了解更多<i class="fa fa-angle-double-right"></i></a></div>
+							<strong>联系我们</strong>
+							<form class="navbar-for" role="email">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="邮箱地址">
+									<span class="nav-search"><a href="#"><i class="fa fa-envelope"></i></a></span>
+								</div>	
+							</form>
+							<!--<small>底部推荐</small>-->
+						</div>
+						<div class="col-sm-3">
+							<h2>特色商品</h2>
+							<div class="heading-border b-color-1"></div>
+							<ul class="media-list">
+								<li class="media">
+									<div class="media-left"><img src="images/product/sm/57b12a31N8f4f75a3.jpg" alt=""></div>
+									<div class="media-body">
+										<p class="media-heading">AppleMacBookAir</p>
+										<div class="category">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star-o"></i>
+										</div>
+										<strong>¥7899.99</strong>
+									</div>
+								</li>
+								<li class="media">
+									<div class="media-left"><img src="images/product/sm/58985861N615a3581.jpg" alt=""></div>
+									<div class="media-body">
+										<p class="media-heading">联想小新700</p>
+										<div class="category">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star-o"></i>
+										</div>
+										<strong>¥6899.99</strong>
+									</div>
+								</li>
+								<li class="media">
+									<div class="media-left"><img src="images/product/sm/57e3b072N661cd00d.jpg" alt=""></div>
+									<div class="media-body">
+										<p class="media-heading">小米Air</p>
+										<div class="category">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star"></i> 
+											<i class="fa fa-star-o"></i>
+										</div>
+										<strong>¥4899.99</strong>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-3">
+							<h2>最新上架</h2>
+							<div class="heading-border b-color-1"></div>
+							<ul class="media-list">
+								<li class="media">
+									<div class="media-left text-center">
+										<img src="images/product/sm/584b5678Nbc9f1e70.jpg" alt="">
+										<span><i class="fa fa-search"></i></span>
+									</div>
+									<div class="media-body">
+										<p class="f-border">戴尔灵越15PR-5745B</p>
+										<p class="f-date">2017.6</p>
+									</div>
+								</li>
+								<li class="media">
+									<div class="media-left text-center">
+										<img src="images/product/sm/58985883Nd4aec745.jpg" alt="">
+										<span><i class="fa fa-search"></i></span>
+									</div>
+									<div class="media-body">
+										<p class="f-border">华硕RX310UQ</p>
+										<p class="f-date">2017.7</p>
+									</div>
+								</li>
+								<li class="media">
+									<div class="media-left text-center">
+										<img src="images/product/sm/58985881N0a78dea2.jpg" alt="">
+										<span><i class="fa fa-search"></i></span>
+									</div>
+									<div class="media-body">
+										<p class="f-border">ThinkPadE480C</p>
+										<p class="f-date">2017.8</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-3">
+							<h2>联系我们</h2>
+							<div class="heading-border b-color-1"></div>
+							<strong class="media-heading">地址</strong>
+							<p>北京市 通州区 梨园大街 格兰大厦 2510室</p>
+
+							<strong class="media-heading">电话 & 传真</strong>
+							<p>+8615210126242</p>
+							<p>+(010)6666 8888</p>
+
+							<strong class="media-heading">邮箱地址</strong>
+							<p>wubaoyu@163.com</p>
+							<p>m15210126242@163.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">		
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p>©2017 made by <a href="#">shuxiong.com</a> & 树熊科技集团有限公司 版权所有 京ICP证09002163号</p>
+							<ul class="list-inline center-block">
+								<li><a href="#"><img src="images/card-1.png"></a></li>
+								<li><a href="#"><img src="images/card-2.png"></a></li>
+								<li><a href="#"><img src="images/card-3.png"></a></li>
+								<li><a href="#"><img src="images/card-4.png"></a></li>
+								<li><a href="#"><img src="images/card-5.png"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</footer>
+		<!-- js文件-->
+        <script src="js/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
